@@ -30,16 +30,16 @@ A feature-rich, interactive system monitoring tool inspired by the Linux "top" c
 
 ## Installation
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/aptGetAdrian/pyTop.git
-   cd pyTop
-   ```
+Clone the repository
+```bash
+git clone https://github.com/aptGetAdrian/pyTop.git
+cd pyTop
+```
 
-2. Install dependencies
-   ```bash
-   pip install -r requirements.txt
-   ```
+Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
@@ -48,7 +48,7 @@ Run the program with:
 python pytop.py
 ```
 
-If you want to see the processes ran by the system, you can run it as a root user. This assumes you're using Linux as your OS:
+If you want to see the processes ran by the system, you can run it as a root user. This assumes you're using Linux as your OS, although I don't recommend running random app with root privileges:
 ```bash
 sudo python pytop.py
 ```
