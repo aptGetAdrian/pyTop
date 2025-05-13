@@ -123,7 +123,7 @@ def get_top_header(stdscr):
     cpu_temp = get_cpu_temperature()
     gpu_info = get_gpu_temperature_and_fan()
 
-    header = [f"top(Adrian verzija) - {current_time} up {uptime}, {users} users, load average: {load_avg[0]:.2f}, {load_avg[1]:.2f}, {load_avg[2]:.2f}",
+    header = [f"pyTop - {current_time} up {uptime}, {users} users, load average: {load_avg[0]:.2f}, {load_avg[1]:.2f}, {load_avg[2]:.2f}",
               f"Tasks: {total_tasks} total, {running_tasks} running, {sleeping_tasks} sleeping, {stopped_tasks} stopped, {zombie_tasks} zombie",
               f"%CPU(s): {cpu_summary}",
               f"CPU Temp: {cpu_temp} | GPU Temp & Fan: {gpu_info} | Battery: {battery_status}",
