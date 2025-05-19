@@ -48,7 +48,7 @@ Run the program with:
 python pytop.py
 ```
 
-If you want to see the processes ran by the system, you can run it as a root user. This assumes you're using Linux as your OS, although I don't recommend running random app with root privileges:
+If you want to see the processes ran by the system, you can run it as a root user. This assumes you're using Linux as your OS, although I don't recommend running random apps with root privileges:
 ```bash
 sudo python pytop.py
 ```
